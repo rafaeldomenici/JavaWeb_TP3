@@ -1,0 +1,45 @@
+package br.edu.infnet.rafaeldomenici.controller;
+
+import java.util.Collection;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.edu.infnet.rafaeldomenici.model.domain.Roupa;
+import br.edu.infnet.rafaeldomenici.model.domain.Venda;
+import br.edu.infnet.rafaeldomenici.model.service.RoupaService;
+import br.edu.infnet.rafaeldomenici.model.service.VendaService;
+
+@RestController
+@RequestMapping("/api/venda")
+public class VendaController {
+	
+	@Autowired
+	private VendaService vendaService;
+	
+	@PostMapping(value = "/incluir")
+	public void incluir(@RequestBody Venda venda) {
+		vendaService.incluir(venda);
+	}
+	
+	@DeleteMapping(value = "/{id}/excluir")
+	public void excluir(@PathVariable int id) {
+		vendaService.excluir(id);
+	}
+	
+	@GetMapping(value = "/listar")
+	public Collection<Venda> obterLista(){
+		return vendaService.obterLista();
+	}
+	
+	@GetMapping(value = "/{id}/listar")
+	public Venda obter(@PathVariable int id){
+		return vendaService.obter(id);
+	}
+}

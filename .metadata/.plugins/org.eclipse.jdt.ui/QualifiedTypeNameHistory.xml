@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.Estoque"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.context.SpringBootTest"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.Roupa"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.service.RoupaService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.service.VendaService"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.Venda"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.service.ItemEstoqueService"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.ItemEstoque"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.ImportAutoConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignAutoConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.commons.httpclient.HttpClientConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.clients.IEnderecoClient"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.service.LocalidadeService"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.service.ClienteService"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.Endereco"/>
+    <fullyQualifiedTypeName name="br.edu.infnet.rafaeldomenici.model.domain.Cliente"/>
+</qualifiedTypeNameHistroy>
